@@ -1,0 +1,36 @@
+/** Admin Notice **/
+.smart-blocks-notice.notice {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    padding: 20px 40px 20px 20px !important;
+    position: relative;
+}
+
+.smart-blocks-notice.notice .smart-blocks-notice-logo {
+    flex: 84px 0 0;
+    width: 84px;
+}
+
+.smart-blocks-notice.notice .smart-blocks-notice-logo svg {
+    display: block;
+    fill: #72aee6;
+}
+
+.smart-blocks-notice.notice p {
+    font-size: 16px;
+    margin: 0 0 15px;
+    padding: 0;
+}
+
+.smart-blocks-notice.notice .button .dashicons {
+    font-size: 16px;
+    height: auto;
+    margin: 0 6px 0 0;
+    vertical-align: middle;
+    width: auto;
+}
+
+.smart-blocks-notice a.notice-dismiss {
+    text-decoration: none;
+}
